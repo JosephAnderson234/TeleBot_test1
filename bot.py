@@ -1,7 +1,4 @@
-
-from datetime import time
 import os
-from socket import timeout
 import qrcode
 from telegram.ext import Updater, CommandHandler, ConversationHandler, MessageHandler, Filters
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ChatAction
